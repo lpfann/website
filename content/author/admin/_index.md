@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Nelson Bighetti"
+name = "Lukas Pfannschmidt"
 
 # Username (this should match the folder name)
 authors = ["admin"]
@@ -9,44 +9,41 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Professor of Artificial Intelligence"
+role = "PhD candidate"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Stanford University", url = "" } ]
+organizations = [ { name = "Bielefeld University", url = "https://www.uni-bielefeld.de/(en)/" },{ name = "DiDy International Research Training Group", url = "https://www.didy.uni-bielefeld.de/" },{ name = "CITEC Machine Learning Group", url = "https://www.cit-ec.de/en/tcs" }  ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include distributed robotics, mobile computing and programmable matter."
+bio = "My research interests include feature selection, relevance determination and high performance computing."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = ""
+email = "lukas@lpfann.me"
 
 # List (academic) interests or hobbies
 interests = [
-  "Artificial Intelligence",
-  "Computational Linguistics",
-  "Information Retrieval"
+  "Feature Selection",
+  "Causal Relevance",
+  "Biomarker Discovery",
+  "Parallel Processing"
 ]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Researchers", "Visitors"]
+#user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
-[[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
+  course = "MSc in Bioinformatics and Genome Research"
+  institution = "Bielefeld University"
+  year = 2016
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "BSc in Bioinformatics and Genome Research"
+  institution = "Bielefeld University"
+  year = 2014
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -61,17 +58,21 @@ user_groups = ["Researchers", "Visitors"]
 [[social]]
   icon = "twitter"
   icon_pack = "fab"
-  link = "https://twitter.com/GeorgeCushen"
+  link = "https://twitter.com/lpfann"
 
 [[social]]
   icon = "google-scholar"
   icon_pack = "ai"
-  link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+  link = "https://scholar.google.co.uk/citations?user=l_KpVoEAAAAJ"
+[[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://www.linkedin.com/in/lpfannschmidt/"
 
 [[social]]
   icon = "github"
   icon_pack = "fab"
-  link = "https://github.com/gcushen"
+  link = "https://github.com/lpfann"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -82,6 +83,7 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Lukas Pfannschmidt is an aspiring researcher working in the intersection between bioinformatics and machine learning. He is focused on methods to automatically uncover relevant elements of biomedical datasets to improve the analysis for other researchers in these areas.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+At the moment he is working as part of the CITEC machine learning group to employ novel machine learning algorithms to interesting research data.
+He is also part of the DiDy international research training group which allowed him to take part in a half-year reseach stay at the Simon Fraser University in Vancouver, Canada in 2018. 
