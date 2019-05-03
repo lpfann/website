@@ -1,5 +1,5 @@
 +++
-title = "Feature Relevance Intervals Analysis Tool"
+title = "Feature Relevance Analysis Tool"
 date = 2019-05-02T14:03:32+02:00
 draft = false
 
