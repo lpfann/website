@@ -86,4 +86,4 @@ interests = [
 Lukas Pfannschmidt is an aspiring researcher working in the intersection between bioinformatics and machine learning. He is focused on methods to automatically uncover relevant elements of biomedical datasets to improve the analysis for other researchers in these areas.
 
 At the moment he is working as part of the CITEC machine learning group to employ novel machine learning algorithms to interesting research data.
-He is also part of the DiDy international research training group which allowed him to take part in a half-year reseach stay at the Simon Fraser University in Vancouver, Canada in 2018. 
+He is also part of the DiDy international research training group which allowed him to take part in a half-year research exchange at the Simon Fraser University in Vancouver, Canada in 2018. 
