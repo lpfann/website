@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
 title = "Projects"
-subtitle = ""
+subtitle = "Things I am working on right now or which I completed in my studies."
 
 [content]
   # Page type to display. E.g. project.
