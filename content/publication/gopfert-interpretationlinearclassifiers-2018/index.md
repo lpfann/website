@@ -8,5 +8,7 @@ featured = false
 publication = "*Neurocomputing*"
 tags = ["Feature selection", "All-Relevant", "Feature Relevance", "Feature Selection", "Interpretability", "Linear Classification", "All-relevant", "Feature relevance", "Linear classification"]
 doi = "10.1016/j.neucom.2017.11.074"
+
+links = [{ name="Preprint", url="https://pub.uni-bielefeld.de/download/2915273/2915277/neurocomputing_2017_goepfert_preprint.pdf"}]
 +++
 
