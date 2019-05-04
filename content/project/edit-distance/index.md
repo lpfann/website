@@ -1,14 +1,14 @@
 +++
-title = "Edit Distance"
-date = 2019-05-04T19:00:09+02:00
+title = "Efficient Edit Distance"
+date = 2013-05-04T19:00:09+02:00
 draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = []
+tags = ["Pthreads","C","Parallel computation","Smith-Waterman","Edit distance"]
 
 # Project summary to display on homepage.
-summary = ""
+summary = "Efficient and parallelized implementation of Smith Waterman edit distance algorithm."
 
 # Slides (optional).
 #   Associate this page with Markdown slides.
@@ -23,7 +23,7 @@ external_link = ""
 
 # Links (optional).
 url_pdf = ""
-url_code = ""
+url_code = "https://github.com/lpfann/edit-distance-parallel"
 url_dataset = ""
 url_slides = ""
 url_video = ""

@@ -43,3 +43,4 @@ url_poster = ""
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = ""
 +++
+In this project we used the K-means algorithm as an example to learn GPU computing using the OpenCL language.
