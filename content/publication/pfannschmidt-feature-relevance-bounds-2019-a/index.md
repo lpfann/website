@@ -9,5 +9,7 @@ publication = "*ESANN 2019*"
 tags = ["Statistics - Machine Learning", "Computer Science - Machine Learning", "Feature Relevance", "Ordinal Regression"]
 url_pdf = "https://arxiv.org/pdf/1902.07662"
 links = [{ name="Arxiv", url="https://arxiv.org/abs/1902.07662"}]
+
+ projects = ["fri"]
 +++
 

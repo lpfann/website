@@ -10,5 +10,7 @@ url_pdf = "https://arxiv.org/pdf/1903.00719"
 links = [{ name="Arxiv", url="https://arxiv.org/abs/1903.00719"}]
 
 tags = ["Feature Relevance","feature selection", "Interactive","Python","Biomarker detection"]
+
+ projects = ["fri"]
 +++
 
