@@ -2,7 +2,13 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "/home/lpfannschmidt/sites/tcs_group_webpage"
 		}
 	],
-	"settings": {}
+	"settings": {},
+	"launch": {
+		"defaultTheme": "academic"
+	}
 }
