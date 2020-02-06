@@ -52,7 +52,7 @@ address_format = "de"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "lukas@lpfann.me"
+email = "contact@lpfann.me"
 #phone = "888 888 88 88"
 address = {street ="CITEC, Room  2.217, Inspiration 1", postcode="33619",city="Bielefeld", country="Germany", country_code="DE"}
 
