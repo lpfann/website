@@ -72,6 +72,7 @@ contact_links = [
   #{icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   #{icon = "envelope", icon_pack = "fas", name = "Email me", link = "mailto:lukas@lpfann.me"},
   {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/lpfann"},
+  {icon = "comment", icon_pack = "fas", name = "Chat on Matrix", link = "https://matrix.to/#/@lukas:lpfann.me"},
   ]
 
 
