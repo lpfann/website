@@ -1,8 +1,8 @@
 ---
 title: Privacy Policy
-date: 2019-05-08T00:00:00.000
-subtitle: Privacy Policy
-summary: This is our privacy policy.
+date: 2019-05-08T00:00:00.000Z
+subtitle: ' '
+summary: This is our Privacy Policy.
 draft: false
 ---
 
