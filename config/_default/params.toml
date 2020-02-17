@@ -114,22 +114,8 @@ contact_links = [
 
 
 ############################
-## Social
-############################
-
-# Load JS plugins
-#   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_js  = []
-
-############################
 ## Regional Settings
 ############################
-
-# Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
-#   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-date_format = "Jan 2, 2006"
-#   Examples: "3:04 pm" or "15:04"
-time_format = "3:04 PM"
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
 main_menu = {align = "l", show_logo = true}
@@ -251,9 +237,3 @@ plugins_js  = []
   engine = 0
   api_key = ""
   zoom = 15
-
-[address_formats]
-en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
-en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
-de = {order = ['street', 'postcode', 'city'], delimiters = [', ', ' ', '']}
-zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
