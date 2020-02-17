@@ -1,14 +1,8 @@
 {
 	"folders": [
 		{
-			"path": "."
-		},
-		{
-			"path": "/home/lpfannschmidt/sites/tcs_group_webpage"
+			"path": "C:\\Users\\mirek\\Dropbox\\workspace\\Webseiten"
 		}
 	],
-	"settings": {},
-	"launch": {
-		"defaultTheme": "academic"
-	}
+	"settings": {}
 }

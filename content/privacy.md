@@ -14,7 +14,7 @@ share = false
 
 This website does not collect personal data from visitors.
 
-The website is served by Cloudflare CDN which is collection anonymous access data for general usage statistics.
+The website is served by Netlify CDN which is collecting anonymous access data for general usage statistics.
 
 ## Cookies
 
