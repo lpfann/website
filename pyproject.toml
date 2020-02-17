@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "lpannwebsite"
+name = "lpfannwebsite"
 version = "0.1.0"
 description = ""
 authors = ["Lukas Pfannschmidt <lukas@lpfann.me>"]
