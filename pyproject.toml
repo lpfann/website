@@ -6,7 +6,7 @@ authors = ["Lukas Pfannschmidt <lukas@lpfann.me>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-academic = "^0.5.1"
+academic = {path = "../../academic-admin"}
 
 [tool.poetry.dev-dependencies]
 
