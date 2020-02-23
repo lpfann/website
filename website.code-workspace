@@ -1,10 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "C:\\Users\\mirek\\Dropbox\\workspace\\Webseiten"
+			"path": "."
 		},
 		{
-			"path": "."
+			"path": "themes\\academic"
 		}
 	],
 	"settings": {}
