@@ -12,6 +12,8 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
+      with:
+          submodules: true
     - name: Bucket remove action
       id: push
       uses: textileio/github-action-bucket-remove@master
