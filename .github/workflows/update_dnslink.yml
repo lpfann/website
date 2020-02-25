@@ -35,7 +35,7 @@ jobs:
         CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
         RECORD_DOMAIN: ${{ secrets.DOMAIN_NAME }}
         RECORD_NAME: '_dnslink.${{ secrets.SUBDOMAIN }}'
-      id: dnslink
+      id: dnslink_sub
       uses: textileio/cloudflare-update-dnslink@master
       with:
         cid: '${{ steps.push.outputs.cid }}'
@@ -45,7 +45,7 @@ jobs:
         CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
         RECORD_DOMAIN: ${{ secrets.DOMAIN_NAME }}
         RECORD_NAME: '_dnslink'
-      id: dnslink
+      id: dnslink_root
       uses: textileio/cloudflare-update-dnslink@master
       with:
         cid: '${{ steps.push.outputs.cid }}'
