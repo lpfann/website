@@ -1,0 +1,11 @@
+<script>
+	window.goatcounter = {no_onload: true};
+
+	window.addEventListener('hashchange', function(e) {
+		window.goatcounter.count({
+			page: location.pathname + location.search + location.hash,
+		});
+	});
+</script>
+<script data-goatcounter="https://lpfann_me.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
