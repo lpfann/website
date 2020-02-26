@@ -119,7 +119,7 @@ To have a completely decentralized solution one can use technologies like [ENS](
 
 Our website is also available under the ENS domain [https://pfannschmidt.eth](https://pfannschmidt.eth) or via the transition link [https://pfannschmidt.eth.link/](https://pfannschmidt.eth.link) which uses the `eth.link` service to allow browsers without ENS support to visit the site.
 
-For now we update the IPFS hash stored in ENS manually, but we could automate this in the future. 
+For now, we update the IPFS hash stored in ENS manually, but we could automate this in the future. 
 
 ## Backwards Compatibility.
 
@@ -129,13 +129,14 @@ Most popular browsers do not support the protocol which is necessary to reach th
 Until that changes one additionally needs to host websites the traditional way using web servers and DNS.
 One can use [Cloudflares](https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-website/) IPFS gateway and DNS solution to automatically serve IPFS content over normal HTTP.
 
-For now this Blog is hosted by [Netlify](https://www.netlify.com/) for  non-IPFS enabled visitors.
+For now this Blog is hosted by [Netlify](https://www.netlify.com/) for non-IPFS enabled visitors.
 
 ## Summary
 
 Overall this process is still very much a complicated and hard thing.
 While IPFS and its ecosystem is steadily improving there is still a lot to do.
 
-Luckily new services such as [terminal.co](https://terminal.co/) are coming up which provide end to end decentralized hosting solutions.
+Luckily new services such as [Terminal.co](https://terminal.co/) are coming up which provide end to end decentralized hosting solutions.
 
-[^1]: We have one external reference left which provides our visitor counting script. Missing it would not influence the usability negatively for the visitors. (You could argue it would improve the experience :wink:)
+[^1]: We have one[^2] external reference left which provides our visitor counting script. Missing it would not influence the usability negatively for the visitors. (You could argue it would improve the experience :wink:)
+[^2]: After publishing this article we added a new [commenting system](https://commento.io/). While it is self hosted, it is not decentralized. Apparently, that is [still a non-trivial thing](https://fixingtao.com/2016/06/how-to-create-a-fairly-decentralized-commenting-system/) to do.
