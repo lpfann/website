@@ -93,13 +93,12 @@ There are so called pinning services (e.g. [Pinata](https://pinata.cloud/)) whic
 Another project is [Filecoin](https://filecoin.io/) which is built on top of IPFS.
 It provides monetary incentive using a type of Blockchain to reward nodes to keep IPFS files pinned.
 
-{{< figure src="gh-action.png" title="GitHub Action building and pushing files to Textile bucket" lightbox="true" >}}
-
+{{< tweet 1231996985760051200>}}
 In the last few days we looked for ways to automatically pin this website when new content is added to the [git repository](https://github.com/lpfann/website).
 Just yesterday [Textile](https://blog.textile.io/first-look-at-textile-buckets-dynamic-ipfs-folders/) announced dynamic _buckets_ working on top of IPFS.
 While not the main focus of their blogpost, they also presented new GitHub Actions which automatically deploy content to their free bucket hosting.
 We extended [their scripts](https://github.com/textileio/gatsby-ipfs-blog) on the demo site based on Gatsby to work with Hugo.
-
+{{< figure src="gh-action.png" title="GitHub Action building and pushing files to Textile bucket" lightbox="true" >}}
 Now after every push and pull request, the GitHub Action compiles Hugo output and pushes it to a Textile bucket which is also pinned and works with IPFS.
 
 Our website content is automatically available under a content hash after every change and [push](https://github.com/lpfann/website/blob/master/.github/workflows/bucket_publish.yml) to the repository.
