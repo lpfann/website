@@ -6,13 +6,18 @@ summary: This is our Privacy Policy.
 draft: false
 ---
 
-## Data
+## Usage Data
 
 This website does not collect personal data from visitors.
 
-The website is served by Netlify CDN which is probably collecting anonymous access data for usage statistics.
+We use a third-party [visitor counting script](https://goatcounter.com) which saves the number of page views without identifying user behaviour or any other user information.
+Check their privacy policy [here](https://www.goatcounter.com/privacy) to see exactly what is stored.
 
-## Cookies
+The website is served by [Netlify CDN](https://www.netlify.com/) which is probably collecting similar anonymous access data for usage statistics.
 
-We use a cookie to save the acceptance of our privacy policy by clicking on the "Got it!" button in the banner.
-The cookie also serves to save the 'Dark-Mode' preference.
+## Comments
+
+We utilize the [Commento](https://commento.io/) commenting plugin which is hosted on our own server in Germany.
+Commento allows anonymous comments as well as logging in via e-mail or third-party _OAuth_ providers (Google, GitHub).
+By logging in you agree that your identifying information (e-mail address, name) is stored and a Cookie is installed to save the login state in the current browser.
+Additionally, Commento uses [Akismet](https://akismet.com/privacy/) as a spam detection service.
