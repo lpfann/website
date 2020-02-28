@@ -42,7 +42,7 @@ subtitle = "Things I am working on right now or which I completed in my studies.
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view = 5
+  view = 3
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows = false
