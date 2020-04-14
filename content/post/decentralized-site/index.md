@@ -136,7 +136,12 @@ For now this Blog is hosted by [Netlify](https://www.netlify.com/) for non-IPFS 
 Overall this process is still very much a complicated and hard thing.
 While IPFS and its ecosystem is steadily improving there is still a lot to do.
 
-Luckily new services such as [Terminal.co](https://terminal.co/) are coming up which provide end to end decentralized hosting solutions.
+Luckily new services such as `fleek` ~~Terminal.co~~ are coming up which provide end to end decentralized hosting solutions.
+
+## Update
+
+We now tried out [fleek](https://fleek.co/) which makes it a lot easier to deploy a static site to IPFS.
+They automatically build your site from your GitHub repository, pin it on IPFS and also handle your DNSLinks such that people know you also provide a content hash.
 
 [^1]: We have one[^2] external reference left which provides our visitor counting script. Missing it would not influence the usability negatively for the visitors. (You could argue it would improve the experience :wink:)
 [^2]: After publishing this article we added a new [commenting system](https://commento.io/). While it is self hosted, it is not decentralized. Apparently, that is [still a non-trivial thing](https://fixingtao.com/2016/06/how-to-create-a-fairly-decentralized-commenting-system/) to do.
