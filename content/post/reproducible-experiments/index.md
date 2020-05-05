@@ -11,7 +11,8 @@ date: 2020-05-04T17:10:53+02:00
 lastmod: 2020-05-04T17:10:53+02:00
 featured: false
 draft: false
-
+highlight: true
+highlight_languages: ["toml"]
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
@@ -75,14 +76,21 @@ The source code of the algorithm is available on [GitHub](https://github.com/lpf
 
 In my case I am using Python for the implementation.
 There exist (too) many approaches for Python to declare dependencies.
-A new alternative which tries to encapsulate the best ideas of all before is the tool [Poetry](https://python-poetry.org/), which allows the declaration of general requirements and also specific versions (and even Hashes).
+A new alternative which tries to encapsulate the best ideas of all before is the tool [Poetry](https://python-poetry.org/), which allows the declaration of general requirements and also specific versions.
+
+{{< figure src="poetry.png" title="Excerpt of general dependency declaration for Poetry." lightbox="true" >}}
+
 In addition, Poetry supports the automatic creation of virtual environments which encapsulate these specific dependencies, even if the global Python environment is widely different to the original creators.
+These environments are defined by hashes which Poetry automatically derives and are located in the [poetry.lock](https://github.com/lpfann/squamish_experiments/blob/master/poetry.lock) file.
 
 To get another layer of encapsulation we also utilize [Containers](https://www.opencontainers.org/) made popular under the name _Docker_.
 While Poetry encapsulates Python environments, containers can encapsulate the complete operating system.
 This makes it possible to run experiments even many years in the future with the same global software stack.
 
 We provide a GitHub repository for all [experiments](https://github.com/lpfann/squamish_experiments) with a [Dockerfile](https://github.com/lpfann/squamish_experiments/blob/master/Dockerfile) included, which is basically a recipe list for all software needed (including the OS).
+
+{{< figure src="dockerfile.png" title="Excerpt of Dockerfile responsible for installing Poetry and its dependencies." lightbox="true" >}}
+
 In short the Dockerfile instructs the container builder to use a specific OS and Poetry to install all Python dependencies and create an _image_.
 One can also execute these instructions beforehand to create a _container image_ and upload it to a public [repository](https://hub.docker.com/repository/docker/mirek1337/squamish_experiments), which makes building unnecessary.
 

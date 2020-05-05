@@ -1,72 +1,16 @@
 
-@inproceedings{pfannschmidtFeatureRelevanceBounds2019,
-  address = {{Bruges}},
-  title = {Feature {{Relevance Bounds}} for {{Ordinal Regression}}},
-  copyright = {All rights reserved},
-  isbn = {978-2-87587-065-0},
-  abstract = {The increasing occurrence of ordinal data, mainly sociodemographic, led to a renewed research interest in ordinal regression, i.e. the prediction of ordered classes. Besides model accuracy, the interpretation of these models itself is of high relevance, and existing approaches therefore enforce e.g. model sparsity. For high dimensional or highly correlated data, however, this might be misleading due to strong variable dependencies. In this contribution, we aim for an identification of feature relevance bounds which - besides identifying all relevant features - explicitly differentiates between strongly and weakly relevant features.},
-  booktitle = {{{ESANN}} 2019},
-  publisher = {{i6doc}},
-  author = {Pfannschmidt, Lukas and Jakob, Jonathan and Biehl, Michael and Tino, Peter and Hammer, Barbara},
-  month = feb,
-  year = {2019},
-  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
-  pages = {ES2019-162},
-  file = {C\:\\Users\\mirek\\Zotero\\storage\\CW77R549\\Pfannschmidt et al_2019_Feature Relevance Bounds for Ordinal Regression.pdf}
-}
-
-@article{gopfert2018,
-  title = {Interpretation of Linear Classifiers by Means of Feature Relevance Bounds},
-  volume = {298},
-  issn = {0925-2312},
-  abstract = {Research on feature relevance and feature selection problems goes back several decades, but the importance of these areas continues to grow as more and more data becomes available, and machine learning methods are used to gain insight and interpret, rather than solely to solve classification or regression problems. Despite the fact that feature relevance is often discussed, it is frequently poorly defined, and the feature selection problems studied are subtly different. Furthermore, the problem of finding all features relevant for a classification problem has only recently started to gain traction, despite its importance for interpretability and integrating expert knowledge. In this paper, we attempt to unify commonly used concepts and to give an overview of the main questions and results. We formalize two interpretations of the all-relevant problem and propose a polynomial method to approximate one of them for the important hypothesis class of linear classifiers, which also enables a distinction between strongly and weakly relevant features.},
-  journal = {Neurocomputing},
-  doi = {10.1016/j.neucom.2017.11.074},
-  author = {G{\"o}pfert, Christina and Pfannschmidt, Lukas and G{\"o}pfert, Jan Philip and Hammer, Barbara},
-  month = jul,
-  year = {2018},
-  keywords = {Feature selection,All-relevant,All-Relevant,Feature relevance,Feature Relevance,Feature Selection,Interpretability,Linear classification,Linear Classification},
-  pages = {69-79},
-  file = {C\:\\Users\\mirek\\Zotero\\storage\\69NBXRSZ\\Göpfert et al_2018_Interpretation of Linear Classifiers by Means of Feature Relevance Bounds.pdf;C\:\\Users\\mirek\\Zotero\\storage\\KJTTHHH7\\Göpfert et al. - 2017 - Interpretation of Linear Classifiers by Means of F.pdf;C\:\\Users\\mirek\\Zotero\\storage\\P62CJD4Y\\neurocomputing_2017_goepfert_preprint (1).pdf;C\:\\Users\\mirek\\Zotero\\storage\\I6XGRW56\\S0925231218302169.html;C\:\\Users\\mirek\\Zotero\\storage\\PF4SS9BI\\Göpfert et al. - 2017 - Interpretation of Linear Classifiers by Means of F.html}
-}
-
-@inproceedings{gopfertFeatureRelevanceBounds2017,
-  address = {{Bruges}},
-  title = {Feature {{Relevance Bounds}} for {{Linear Classification}}},
-  copyright = {All rights reserved},
-  abstract = {Biomedical applications often aim for an identification of relevant features for a given classification task, since these carry the promise of semantic insight into the underlying process. For correlated input dimensions, feature relevances are not unique, and the identification of meaningful subtle biomarkers remains a challenge. One approach is to identify intervals for the possible relevance of given features, a problem related to all relevant feature determination. In this contribution, we address the important case of linear classifiers and we transfer the problem how to infer feature relevance bounds to a convex optimization problem. We demonstrate the superiority of the resulting technique in comparison to popular feature-relevance determination methods in several benchmarks.},
-  booktitle = {Proceedings of the {{ESANN}}},
-  publisher = {{25th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning}},
-  author = {G{\"o}pfert, Christina and Pfannschmidt, Lukas and Hammer, Barbara},
-  year = {2017}
-}
-
-@article{pfannschmidtFeatureRelevanceDetermination2020,
+@inproceedings{pfannschmidtSequentialFeatureClassification2020,
+  ids = {pfannschmidtSequentialFeatureClassification2020},
+  title = {Sequential {{Feature Classification}} in the {{Context}} of {{Redundancies}}},
+  author = {Pfannschmidt, Lukas and Hammer, Barbara},
+  date = {2020-04-15},
+  url = {http://arxiv.org/abs/2004.00658},
+  urldate = {2020-04-21},
+  abstract = {The problem of all-relevant feature selection is concerned with finding a relevant feature set with preserved redundancies. There exist several approximations to solve this problem but only one could give a distinction between strong and weak relevance. This approach was limited to the case of linear problems. In this work, we present a new solution for this distinction in the non-linear case through the use of random forest models and statistical methods.},
   archivePrefix = {arXiv},
+  eprint = {2004.00658},
   eprinttype = {arxiv},
-  eprint = {1912.04832},
-  title = {Feature {{Relevance Determination}} for {{Ordinal Regression}} in the {{Context}} of {{Feature Redundancies}} and {{Privileged Information}}},
-  abstract = {Advances in machine learning technologies have led to increasingly powerful models in particular in the context of big data. Yet, many application scenarios demand for robustly interpretable models rather than optimum model accuracy; as an example, this is the case if potential biomarkers or causal factors should be discovered based on a set of given measurements. In this contribution, we focus on feature selection paradigms, which enable us to uncover relevant factors of a given regularity based on a sparse model. We focus on the important specific setting of linear ordinal regression, i.e.\textbackslash{} data have to be ranked into one of a finite number of ordered categories by a linear projection. Unlike previous work, we consider the case that features are potentially redundant, such that no unique minimum set of relevant features exists. We aim for an identification of all strongly and all weakly relevant features as well as their type of relevance (strong or weak); we achieve this goal by determining feature relevance bounds, which correspond to the minimum and maximum feature relevance, respectively, if searched over all equivalent models. In addition, we discuss how this setting enables us to substitute some of the features, e.g.\textbackslash{} due to their semantics, and how to extend the framework of feature relevance intervals to the setting of privileged information, i.e.\textbackslash{} potentially relevant information is available for training purposes only, but cannot be used for the prediction itself.},
-  journal = {Neurocomputing},
-  author = {Pfannschmidt, Lukas and Jakob, Jonathan and Hinder, Fabian and Biehl, Michael and Tino, Peter and Hammer, Barbara},
-  year = {2020},
-  keywords = {Computer Science - Information Retrieval,Computer Science - Machine Learning,Statistics - Machine Learning},
-  file = {C\:\\Users\\mirek\\Zotero\\storage\\6EIRF22X\\Pfannschmidt et al_2019_Feature Relevance Determination for Ordinal Regression in the Context of.pdf;C\:\\Users\\mirek\\Zotero\\storage\\SXIEEE3S\\1912.html}
-}
-
-@inproceedings{pfannschmidtFRIFeatureRelevanceIntervals2019,
-  title = {{{FRI}}-{{Feature Relevance Intervals}} for {{Interpretable}} and {{Interactive Data Exploration}}},
-  abstract = {Most existing feature selection methods are insufficient for analytic purposes as soon as high dimensional data or redundant sensor signals are dealt with since features can be selected due to spurious effects or correlations rather than causal effects. To support the finding of causal features in biomedical experiments, we hereby present FRI, an open source Python library that can be used to identify all-relevant variables in linear classification and (ordinal) regression problems. Using the recently proposed feature relevance interval method, FRI is able to provide the base for further general experimentation or in specific can facilitate the search for alternative biomarkers. It can be used in an interactive context, by providing model manipulation and visualization methods, or in a batch process as a filter method.},
-  booktitle = {2019 {{IEEE Conference}} on {{Computational Intelligence}} in {{Bioinformatics}} and {{Computational Biology}} ({{CIBCB}})},
-  doi = {10.1109/CIBCB.2019.8791489},
-  author = {Pfannschmidt, Lukas and G{\"o}pfert, Christina and Neumann, Ursula and Heider, Dominik and Hammer, Barbara},
-  month = jul,
-  year = {2019},
-  keywords = {batch process,Biological system modeling,biology computing,biomarkers,Biomarkers,biomedical experiments,Computational modeling,data analysis,Data models,data visualisation,Feature extraction,feature relevance interval method,feature selection,feature selection methods,filter method,FRI,global feature relevance,interactive biomarker discovery,interactive data exploration,interpretability,interpretable data exploration,linear classification,open source Python library,pattern classification,Predictive models,public domain software,Python,Redundancy,redundant sensor signals,regression analysis,regression problems,visualization methods},
-  pages = {1-10},
-  file = {C\:\\Users\\mirek\\Zotero\\storage\\VBQ9VFTX\\Pfannschmidt et al. - 2019 - FRI - Feature Relevance Intervals for Interpretabl.pdf;C\:\\Users\\mirek\\Zotero\\storage\\22XELZGT\\8791489.html;C\:\\Users\\mirek\\Zotero\\storage\\EHCUUKD3\\2935456.html},
-  ids = {pfannschmidtFRIFeatureRelevance2019},
-  issn = {null}
+  primaryClass = {cs, stat}
 }
 
 

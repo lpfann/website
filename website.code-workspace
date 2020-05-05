@@ -7,5 +7,8 @@
 			"path": "themes\\academic"
 		}
 	],
-	"settings": {}
+	"settings": {},
+	"launch": {
+		"defaultTheme": "academic"
+	}
 }
