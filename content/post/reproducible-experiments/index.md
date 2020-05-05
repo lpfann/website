@@ -11,8 +11,7 @@ date: 2020-05-04T17:10:53+02:00
 lastmod: 2020-05-04T17:10:53+02:00
 featured: false
 draft: false
-highlight: true
-highlight_languages: ["toml"]
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
