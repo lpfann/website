@@ -3,7 +3,7 @@
 
 title: "Reproducible Experiments in Machine Learning"
 subtitle: "How to make scientific results reproducible using containers"
-summary: ""
+summary: "This post describes how we used Docker containers and Python environments to make tables and figures in  our recent scientific paper reproducible."
 authors: [admin]
 tags: [Docker, Container, Reproducibility, Python, Poetry, Science, Experiments]
 categories: []
