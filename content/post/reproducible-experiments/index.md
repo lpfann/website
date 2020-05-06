@@ -1,11 +1,11 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Reproducible Experiments"
+title: "Reproducible Experiments in Machine Learning"
 subtitle: "How to make scientific results reproducible using containers"
 summary: ""
-authors: []
-tags: [Docker, Container, Reproducibility, Python, Experiments]
+authors: [admin]
+tags: [Docker, Container, Reproducibility, Python, Poetry, Science, Experiments]
 categories: []
 date: 2020-05-04T17:10:53+02:00
 lastmod: 2020-05-04T17:10:53+02:00
@@ -16,7 +16,7 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "Photo by [chuttersnap](https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/)"
   focal_point: ""
   preview_only: false
 
