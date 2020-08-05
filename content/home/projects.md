@@ -3,10 +3,10 @@
 widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 65  # Order that this section will appear.
+weight = 30  # Order that this section will appear.
 
 title = "Projects"
-subtitle = "Things I am working on right now or which I completed in my studies."
+subtitle = ""
 
 [content]
   # Page type to display. E.g. project.
@@ -42,7 +42,7 @@ subtitle = "Things I am working on right now or which I completed in my studies.
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view = 3
+  view = 2
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows = false
