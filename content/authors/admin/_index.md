@@ -52,7 +52,7 @@ social:
   #  link: files/cv.pdf
 ---
 
-Lukas Pfannschmidt is working in the intersection between bioinformatics and machine learning. He is focused on algorithms  to automatically uncover relevant elements of interesting datasets.
-He is also interested in developing algorithms into applications with regards to performance, usability and scalability.
+Lukas Pfannschmidt is working in the intersection between theoretical machine learning and applied data science. His own research focused on algorithms  to automatically uncover relevant elements of interesting datasets.
+He is interested in developing algorithms into applications with regards to performance, usability and scalability.
 
 In his spare time he is realizing hobby projects focusing on self-hosted or decentralized applications and is also interested in the industries recent technologies such as Docker or Kubernetes.
