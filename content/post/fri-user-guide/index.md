@@ -3,7 +3,7 @@ title = "FRI Quickstart Guide"
 subtitle = "How to use the FRI python library to discover relevant features."
 
 # Add a summary to display on homepage (optional).
-summary = ""
+summary = "This guide covers the first steps in using the FRI library for analysing relevant features."
 
 date = 2019-05-02T13:51:40+02:00
 draft = false
