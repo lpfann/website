@@ -1,21 +1,23 @@
-+++
-title = "Privacy Policy"
+---
+title: Privacy Policy
+date: 2019-05-08T00:00:00.000Z
+subtitle: ' '
+summary: This is our Privacy Policy.
+draft: false
+---
 
-date = 2019-05-08T00:00:00
-draft = false
-share = false
+## Usage Data
 
-# [header]
-# image = ""
-# caption = ""
-+++
-## Data
 This website does not collect personal data from visitors.
 
-We use *Google Analytics* (GA) to get insights into what content user like on our site. For that, GA collects anonymized usage data to create statistics which do not allow reference to individual behaviour ([Privacy Policy](https://support.google.com/analytics/answer/6004245)). No IP addresses are collected.
+We use a third-party [visitor counting script](https://goatcounter.com) which saves the number of page views without identifying user behaviour or any other user information.
+Check their privacy policy [here](https://www.goatcounter.com/privacy) to see exactly what is stored.
 
-## Cookies
+The website is served by [Netlify CDN](https://www.netlify.com/) which is probably collecting similar anonymous access data for usage statistics.
 
-The only cookies used on this website are coming from the  *Google Analytics* script for the purpose desribed above.
+## Comments
 
-Additionally, we use a cookie to save the acceptance of our privacy policy by clicking on the "Got it!" button in the banner.
+We utilize the [Commento](https://commento.io/) commenting plugin which is hosted on our own server in Germany.
+Commento allows anonymous comments as well as logging in via e-mail or third-party _OAuth_ providers (Google, GitHub).
+By logging in you agree that your identifying information (e-mail address, name) is stored and a Cookie is installed to save the login state in the current browser.
+Additionally, Commento uses [Akismet](https://akismet.com/privacy/) as a spam detection service.
