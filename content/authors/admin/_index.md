@@ -22,12 +22,12 @@ interests:
   - Mobility Solutions
 education:
   courses:
-    - course: MSc in Bioinformatics and Genome Research
+    - course: PhD in Machine Learning
       institution: Bielefeld University
-      year: 2016
-    - course: BSc in Bioinformatics and Genome Research
+      year: planned 2020
+    - course: B.Sc & M.Sc. in Bioinformatics and Genome Research
       institution: Bielefeld University
-      year: 2014
+      year: 2014 & 2016
 social:
   - icon: envelope
     icon_pack: fas
@@ -52,7 +52,7 @@ social:
   #   link: files/cv.pdf
 ---
 
-Lukas Pfannschmidt is an aspiring researcher working in the intersection between bioinformatics and machine learning. He is focused on methods to automatically uncover relevant elements of biomedical datasets to improve the analysis for other researchers in these areas.
+Lukas Pfannschmidt is working in the intersection between bioinformatics and machine learning. He is focused on algorithms  to automatically uncover relevant elements of interesting datasets.
+He is also interested in developing algorithms into applications with regards to performance, usability and scalability.
 
-At the moment he is working as part of the CITEC machine learning group to employ novel machine learning algorithms to interesting research data.
-He is also part of the DiDy international research training group which allowed him to take part in a half-year research exchange at the Simon Fraser University in Vancouver, Canada in 2018. 
+In his spare time he is realizing hobby projects focusing on self-hosted or decentralized applications and is also interested in the industries recent technologies such as Docker or Kubernetes.
