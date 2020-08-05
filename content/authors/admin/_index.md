@@ -47,9 +47,9 @@ social:
   - icon: xing
     icon_pack: fab
     link: 'https://www.xing.com/profile/Lukas_Pfannschmidt'
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: files/cv.pdf
+  #- icon: cv
+  #  icon_pack: ai
+  #  link: files/cv.pdf
 ---
 
 Lukas Pfannschmidt is working in the intersection between bioinformatics and machine learning. He is focused on algorithms  to automatically uncover relevant elements of interesting datasets.
