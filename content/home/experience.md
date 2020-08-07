@@ -49,7 +49,7 @@ date_format = "Jan 2006"
   company = "International Research Training Group GRK 1906"
   company_url = "https://didy.uni-bielefeld.de/"
   location = "Bielefeld, Germany"
-  date_start = "2016-10-01"
+  date_start = "2015-10-01"
   date_end = "2018-04-30"
   description = """
 
@@ -58,6 +58,8 @@ date_format = "Jan 2006"
   * Scientific writing and presentation
   * Teaching
   """
+
+
 [[experience]]
   title = "Teaching Assistant"
   company = "Genome Informatics group"
