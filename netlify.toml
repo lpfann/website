@@ -32,3 +32,6 @@
 
 [[plugins]]
 package = "netlify-plugin-subfont"
+
+[[plugins]]
+package = "netlify-plugin-image-optim"
