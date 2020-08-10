@@ -31,7 +31,4 @@
     Content-Type = "application/rss+xml"
 
 [[plugins]]
-package = "netlify-plugin-subfont"
-
-[[plugins]]
 package = "netlify-plugin-image-optim"
