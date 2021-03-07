@@ -13,8 +13,5 @@ links:
     - name: Experiments
       url: https://github.com/lpfann/squamish_experiments
 ---
-{{% alert warning %}}
-This paper is still work in progress but is close to submission for peer review.
-{{% /alert %}}
 
 Experiments are reproducible and can be found [here](https://github.com/lpfann/squamish_experiments).
