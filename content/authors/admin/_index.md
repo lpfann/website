@@ -3,28 +3,29 @@ title: Lukas Pfannschmidt
 authors:
   - admin
 superuser: true
-role: PhD Candidate
+role: ML Engineer
 organizations:
   #- name: Bielefeld University
   #  url: 'https://www.uni-bielefeld.de/(en)/'
   #- name: DiDy International Research Training Group
   #  url: 'https://www.didy.uni-bielefeld.de/'
-  - name: CITEC Machine Learning Group
-    url: 'https://www.cit-ec.de/en/tcs'
+  # - name: CITEC Machine Learning Group
+  #   url: 'https://www.cit-ec.de/en/tcs'
+   - name: super.AI
+     url: 'https://super.ai/'
 bio: >-
   My research interests include feature selection, relevance determination and
   high performance computing.
 email: lukas@lpfann.me
 interests:
-  - Machine Learning
-  - Software Engineering
-  - Decentralized Applications
-  - Mobility Solutions
+  - Machine learning
+  - Software engineering
+  - Cloud applications
 education:
   courses:
-    - course: PhD in Machine Learning
+    - course: PhD candidate in Machine Learning
       institution: Bielefeld University
-      year: planned 2020
+      year: t.b.a.
     - course: B.Sc & M.Sc. in Bioinformatics and Genome Research
       institution: Bielefeld University
       year: 2014 & 2016
@@ -52,6 +53,6 @@ social:
   #  link: files/cv.pdf
 ---
 
-Finishing PhD candidate with 5 years of experience dedicated to efficient and maintainable solutions to interesting problems.
+Software engineer and finishing PhD candidate with 5 years of experience dedicated to efficient and maintainable solutions to interesting problems.
 Studies of bioinformatics and machine learning with focus on feature selection.
-Very familiar with handling and representing diverse data.
+Very familiar with handling, representing and processing diverse data in local environments and cloud infrastructures.

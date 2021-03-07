@@ -18,12 +18,26 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Machine Learning Engineer"
+  company = "super.AI"
+  company_url = "https://super.ai/"
+  location = "Berlin, Germany"
+  date_start = "2020-11-01"
+  date_end = ""
+  description = """
+  Responsibilities:
+  * SDK development
+  * ML model research and deployment 
+  * AI service design
+  """
+
+[[experience]]
   title = "Research Associate"
   company = "CITEC, Prof. Hammer's Machine Learning group"
   company_url = "https://www.cit-ec.de/en/tcs"
   location = "Bielefeld, Germany"
   date_start = "2018-10-01"
-  date_end = ""
+  date_end = "2020-10-31"
   description = """
   Responsibilities include:
   * Research ( Modelling & Analysis )

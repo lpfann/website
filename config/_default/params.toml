@@ -97,7 +97,7 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "contact@lpfann.me"
 #phone = "888 888 88 88"
-address = {street ="CITEC, Room  2.217, Inspiration 1", postcode="33619",city="Bielefeld", country="Germany", country_code="DE"}
+#address = {street ="CITEC, Room  2.217, Inspiration 1", postcode="33619",city="Bielefeld", country="Germany", country_code="DE"}
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 #office_hours = """Monday 10:00 to 13:00<br>
@@ -114,8 +114,8 @@ contact_links = [
   {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/mirek"},
   #{icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   #{icon = "envelope", icon_pack = "fas", name = "Email me", link = "mailto:lukas@lpfann.me"},
-  {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/lpfann"},
-  {icon = "comment", icon_pack = "fas", name = "Chat on Matrix", link = "https://matrix.to/#/@lukas:lpfann.me"},
+  #{icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/lpfann"},
+  #{icon = "comment", icon_pack = "fas", name = "Chat on Matrix", link = "https://matrix.to/#/@lukas:lpfann.me"},
   ]
 
 ############################
